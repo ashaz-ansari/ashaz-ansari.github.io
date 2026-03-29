@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Animation</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            animation: move 4s infinite;
+        }
+
+        @keyframes move {
+            0% {
+                left: 0px;
+            }
+
+            50% {
+                left: 300px;
+                background-color: red;
+            }
+
+            100% {
+                left: 0px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>CSS Animation Example</h2>
+    <div></div>
+
+</body>
+
+</html>
